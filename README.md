@@ -2,7 +2,7 @@
 
 Personal portfolio website of Sadman Ahmed, an IT professional and web developer based in Dhaka, Bangladesh.
 
-**Live site:** https://sadman-ahmed.github.io
+**Live site:** https://sadmanahmed.me
 
 ## Pages
 Home, Work, About, Services, Security, Apps, Resume and Contact.
@@ -16,8 +16,5 @@ Home, Work, About, Services, Security, Apps, Resume and Contact.
 - Responsive layout, with reduced-motion support
 
 ## Tech
-HTML, CSS, vanilla JavaScript. Fonts: Archivo and JetBrains Mono (Google Fonts). Hosted on GitHub Pages.
+HTML, CSS, vanilla JavaScript, Next.js Fonts: Archivo and JetBrains Mono (Google Fonts). Hosted on GitHub Pages.
 
-## Structure
-index.html, work.html, about.html, services.html, security.html, apps.html, resume.html, contact.html
-assets/style.css, assets/main.js
