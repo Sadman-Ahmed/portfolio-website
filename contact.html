@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – Sadman Ahmed</title>
+  <meta name="description" content="Send Sadman Ahmed a message about IT roles, websites, apps or security work.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>try { document.documentElement.className = sessionStorage.getItem("tr") === "1" ? "cover via" : "cover"; sessionStorage.removeItem("tr") } catch (e) { }</script>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <a class="logo" href="index.html" aria-label="Sadman Ahmed, home">Sadman<em><mark>a</mark>hmed</em></a>
+    <span class="mono clock">Dhaka, BD / <span id="t">--:--</span></span>
+    <nav class="nav" aria-label="Main"><a href="work.html">Work</a><a href="about.html">About</a><a
+        href="services.html">Services</a><a class="pill solid" data-mag href="contact.html">Let's talk</a><button
+        id="menubtn" data-mag type="button" aria-expanded="false" aria-controls="menu">Menu</button></nav>
+  </header>
+  <div class="menu" id="menu">
+    <ul>
+      <li><a href="index.html"><span>01</span>Home</a></li>
+      <li><a href="work.html"><span>02</span>Work</a></li>
+      <li><a href="about.html"><span>03</span>About</a></li>
+      <li><a href="services.html"><span>04</span>Services</a></li>
+      <li><a href="security.html"><span>05</span>Security</a></li>
+      <li><a href="apps.html"><span>06</span>Apps</a></li>
+      <li><a href="contact.html"><span>07</span>Contact</a></li>
+    </ul>
+    <div class="mono">sdmn.ahmd@gmail.com &nbsp;/&nbsp; Dhaka, Bangladesh</div>
+  </div>
+  <main id="main">
+    <section class="pagehead">
+      <div class="meta mono"><span>(Contact)</span><span>Open to work</span><span>Dhaka, BD</span></div>
+      <h1 aria-label="Let's talk"><span><b>Let's</b></span><span><b>talk</b></span></h1>
+    </section>
+    <section>
+      <div class="cform">
+        <div data-r>
+          <p class="big" style="font-size:clamp(1.3rem,2.4vw,2rem)">Need a website, an app, or IT and security support?
+            Or have a role in mind? Tell me a bit about it and I'll reply by email.</p>
+          <dl style="margin-top:32px">
+            <div>
+              <dt class="mono">Email</dt>
+              <dd><a href="mailto:sdmn.ahmd@gmail.com">sdmn.ahmd@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt class="mono">LinkedIn</dt>
+              <dd><a href="https://www.linkedin.com/in/sdmn-ahmd/">linkedin.com/in/sdmn-ahmd</a></dd>
+            </div>
+            <div>
+              <dt class="mono">GitHub</dt>
+              <dd><a href="https://github.com/Sadman-Ahmed">github.com/Sadman-Ahmed</a></dd>
+            </div>
+            <div>
+              <dt class="mono">Based in</dt>
+              <dd>Dhaka, Bangladesh</dd>
+            </div>
+          </dl>
+        </div>
+        <div data-r>
+          <form id="cf" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <input type="hidden" name="subject" value="New message from my portfolio website">
+            <input type="hidden" name="from_name" value="Portfolio website">
+            <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="f"><label class="mono" for="n">01 / Your name</label><input id="n" name="name" type="text"
+                required autocomplete="name" placeholder="Jane Doe"></div>
+            <div class="f"><label class="mono" for="e">02 / Email</label><input id="e" name="email" type="email"
+                required autocomplete="email" placeholder="jane@company.com"></div>
+            <div class="f"><label class="mono" for="o">03 / Organization (optional)</label><input id="o"
+                name="organization" type="text" autocomplete="organization" placeholder="Where do you work?"></div>
+            <fieldset class="f">
+              <legend class="mono">04 / What do you need? (optional)</legend>
+              <div class="chips"><label class="chip"><input type="radio" name="topic"
+                    value="Website"><span>Website</span></label><label class="chip"><input type="radio" name="topic"
+                    value="Mobile app"><span>Mobile app</span></label><label class="chip"><input type="radio"
+                    name="topic" value="UI / UX"><span>UI / UX</span></label><label class="chip"><input type="radio"
+                    name="topic" value="IT &amp; security"><span>IT &amp; security</span></label><label
+                  class="chip"><input type="radio" name="topic" value="Job opportunity"><span>Job
+                    opportunity</span></label><label class="chip"><input type="radio" name="topic"
+                    value="Something else"><span>Something else</span></label></div>
+            </fieldset>
+            <div class="f"><label class="mono" for="m">05 / Message</label><textarea id="m" name="message" rows="5"
+                required placeholder="Tell me about your project or role"></textarea></div>
+            <button class="pill solid" data-mag type="submit">Send message →</button>
+            <p class="mono" id="fs" role="status" aria-live="polite" style="margin-top:20px"></p>
+          </form>
+          <div id="thanks" hidden><span class="mono">(Sent)</span>
+            <p class="big" style="margin-top:12px">Thank you. I'll get back to you by email soon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="mono">
+    <span><a href="https://www.linkedin.com/in/sdmn-ahmd/">LinkedIn</a> &nbsp;/&nbsp; <a
+        href="https://github.com/Sadman-Ahmed">GitHub</a> &nbsp;/&nbsp; <a
+        href="assets/Sadman-Ahmed-Resume.pdf">Resume</a></span>
+    <span>©<span id="y">2026</span> Sadman Ahmed</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+  <div class="cur" aria-hidden="true"><span></span></div>
+  <div class="dot" aria-hidden="true"></div>
+  <div class="tr" aria-hidden="true"><span class="mono" id="lbl">(Next)</span><b id="pname">Contact</b><span
+      class="mono" style="display:flex;justify-content:space-between"><span>IT, security &amp; web</span><span
+        id="cnt">000</span></span></div>
+  <noscript>
+    <style>
+      .tr,
+      .cur,
+      .dot {
+        display: none
+      }
+
+      [data-r],
+      .tl,
+      .w {
+        opacity: 1;
+        transform: none
+      }
+    </style>
+  </noscript>
+  <script src="assets/main.js"></script>
+</body>
+
+</html>
